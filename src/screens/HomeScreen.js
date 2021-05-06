@@ -19,7 +19,9 @@ state = {
 };
 
   renderItem = ({item}) => (
-      <View style={styles.listItem}>
+      <View 
+      style={{backgroundColor:'#d3d3d3d3'}}
+      style={styles.listItem}>
         <Text style={styles.text}>{item.full_name} {"\n"} <Text style={styles.text2}>{item.tipo} {"\n"}</Text></Text>
 
         <Button
@@ -60,7 +62,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
   listItem: {
-    backgroundColor: '#d3d3d3d3',
+    backgroundColor: '#fff',
     marginTop: 20,
     padding: 30,
   },

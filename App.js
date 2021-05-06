@@ -22,8 +22,8 @@ class App extends React.Component {
           <Stack.Screen 
             name="Home"
             component={HomeScreen}
-          />
-          
+          /> 
+
           <Stack.Screen
             name="Imóvel 1"
             component={Imovel1}

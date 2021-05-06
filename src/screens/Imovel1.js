@@ -5,7 +5,7 @@ import { ScrollView } from 'react-native-gesture-handler';
 class Imovel1 extends React.Component {
   render() {
     return (
-      <View style={{flex:1, justifyContent: 'center'}}>
+      <View style={{flex:1, justifyContent: 'center'}}> 
 
       <ScrollView>
         

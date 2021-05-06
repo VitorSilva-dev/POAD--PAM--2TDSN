@@ -31,7 +31,7 @@ state = {
           }
         />
       </View>
-    );
+    ); 
   
 
 render() {

@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
         borderColor: '#000',
         borderWidth: 1,
         padding: 10,
-        backgroundColor: '#fff',
+        backgroundColor: '#fff', 
         borderRadius: 10
     },
     touch:{
